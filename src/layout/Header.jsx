@@ -10,7 +10,7 @@ const Header = ({isLoggedIn, username, onLogout }) => {
             <Link to='/add-product'>상품등록</Link>
             {/* 삼항연산자  */}
             {isLoggedIn ? (
-                <div>
+                <div className='header-user'>
                     <span>{username}님</span>
                     <button
                         type='button'

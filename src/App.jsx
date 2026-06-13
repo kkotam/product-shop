@@ -19,7 +19,7 @@ function App() {
   const [ username, setUsername ] = useState('');
 
   //로그인 핸들러
-  const handleLogin = () => {
+  const handleLogin = (username) => {
     setIsLoggedIn(true); //로그인 성공 시 상태 업데이트
     setUsername(username); //로그인한 사용자아이디 저장 
   }
@@ -37,7 +37,7 @@ function App() {
           {/* 헤더영역 */}
           <Header 
             isLoggedIn = {isLoggedIn}
-            onLogout= {username}
+            username= {username}
             onLogout= {handleLogout}
           />
 
