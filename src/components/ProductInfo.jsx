@@ -17,10 +17,17 @@ const ProductInfo = () => {
     }
 
     return(
-        <div>
+        <div className="product-detail">
             {/* <h3>상품id: {params.id}</h3> */}
             <h3>상품id: {id}</h3>
+            <h3>이름: {product.name}</h3>
+            <h3>가격: {product.price}</h3>
+            <h3>상세: {product.description}</h3>
+            <div className="btn-list">
+                <button onClick={doClick}>목록보기</button>
+            </div>
         </div>
+
     )
 }
 

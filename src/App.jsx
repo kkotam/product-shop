@@ -33,7 +33,7 @@ function App() {
     <>
       <section className="app">
         {/* <h2>상품관리</h2> */}
-        <BrowserRouter>
+        <BrowserRouter basename='/product-shop/'>
           {/* 헤더영역 */}
           <Header 
             isLoggedIn = {isLoggedIn}

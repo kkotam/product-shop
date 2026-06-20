@@ -50,6 +50,43 @@
   background-color: #eee;
 }
 
+.btn-add{
+  left: 20%;
+}
+
+.product-detail{
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #eee;
+  text-align: left;
+}
+
+.product-detail p{margin: 10px;}
+
+.btn-list{
+  margin: 20px;
+}
+
+.signin-form input{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signin-form button{
+  width: 100%;
+  padding: 8px 16px;
+  margin-left: 12px;
+  background-color: #28a745;
+  color:#eee;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
 
 
 

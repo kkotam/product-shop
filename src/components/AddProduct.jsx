@@ -58,11 +58,11 @@ const AddProduct = () => {
                 </div>
                 <div>
                     <label htmlFor="price">설명</label>
-                    <input
-                    type="text"
+                    <textarea
                     id="description"
                     name="description"
                     onChange={handleChange}
+                    rows={5}
                     placeholder="설명을 입력하세요"
                     />
                 </div>

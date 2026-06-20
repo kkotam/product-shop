@@ -63,7 +63,7 @@ const SignIn = ({onLogin}) => {
     <div>
       <h2>로그인</h2>
       {/* 폼 태그 사용 */}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="signin-form">
         <p>
           <input 
             type="text" 
@@ -83,7 +83,7 @@ const SignIn = ({onLogin}) => {
           />
         </p>
         {/* 폼을 전송하는 버튼은 type="submit" */}
-        <button type="submit">로그인</button>
+        <button type="submit" className="button">로그인</button>
       </form>
       {/* 결과 메시지 출력 */}
       {result === 'success' && (
